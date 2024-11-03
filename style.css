@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image_section {
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+    background-image: url(https://i.pinimg.com/736x/a5/bf/e6/a5bfe6aeda2ca06f59ef957e7a1ced6e.jpg);
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.gradient_section {
+    width: 100%;
+    height: 200px;
+    background-color: pink, hotpink, pink;
+    background-image: linear-gradient(to left, pink, hotpink, pink);
+}
+
+
+.animation_section {
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+    animation: contactanimation 10s infinite;
+}
+
+
+@keyframes contactanimation {
+    0% {
+        background-color: palevioletred;
+    }
+
+    50% {
+        background-color: burlywood;
+    }
+
+    100% {
+        background-color: hotpink;
+    }
+}
